@@ -1,7 +1,17 @@
-base_url = "https://calcite.cc"
-title = "Calcite - Multipurpose Discord Bot"
-description = "An open-source multipurpose Discord bot that's currently a work in progress"
-default_language = "en"
+# The site title
+title = "calcite"
+
+# The site description
+description = "an open-source multipurpose discord bot that brings cool features to your server. currently in active development."
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# The site URL
+base_url = "https://4t88.github.io/calcite.cc"
 
 # Enable syntax highlighting through markdown settings
 [markdown]
