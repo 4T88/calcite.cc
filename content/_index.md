@@ -9,7 +9,12 @@ description = "an open-source multipurpose discord bot that brings cool features
         <h1 class="text-5xl md:text-6xl font-bold mb-6 gradient-text">welcome to calcite.</h1>
         <p class="text-xl text-gray-300 mb-8">an open-source multipurpose discord bot that brings cool features to your server. currently in active development.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button disabled class="marble-button px-8 py-3 rounded-md text-lg font-medium opacity-50 cursor-not-allowed">coming soon</button>
+            <div class="relative group">
+                <button disabled class="marble-button px-8 py-3 rounded-md text-lg font-medium opacity-50 cursor-not-allowed">coming soon</button>
+                <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-4 py-2 bg-[#1f1f1f] text-gray-300 rounded-lg border border-gray-800 opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap">
+                    wait until the bot is developed and documented
+                </div>
+            </div>
             <a href="https://github.com/4T88/calcite" class="marble-button px-8 py-3 rounded-md text-lg font-medium">check out github</a>
         </div>
     </div>
