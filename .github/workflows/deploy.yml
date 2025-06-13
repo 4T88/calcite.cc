@@ -24,7 +24,8 @@ jobs:
       
       - name: Install Zola
         run: |
-          wget -q -O - https://get.zola.rs | bash -s
+          curl -sSf https://get.zola.rs | sh
+          export PATH=$PATH:$HOME/.cargo/bin
           zola --version
       
       - name: Build
