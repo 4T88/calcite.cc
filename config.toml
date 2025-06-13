@@ -1,0 +1,22 @@
+base_url = "https://calcite.cc"
+title = "Calcite - Multipurpose Discord Bot"
+description = "An open-source multipurpose Discord bot that's currently a work in progress"
+default_language = "en"
+
+# Enable syntax highlighting through markdown settings
+[markdown]
+# Enable smart quotes
+smart_punctuation = true
+# Enable syntax highlighting
+highlight_code = true
+
+# Enable automatic taxonomies
+taxonomies = [
+    {name = "tags", feed = true},
+]
+
+[extra]
+# Put any custom variables here
+github_url = "https://github.com/4T88/calcite"
+website_github_url = "https://github.com/4T88/calcite.cc"
+discord_invite = "https://discord.gg/a7Z6XRFVbJ"
